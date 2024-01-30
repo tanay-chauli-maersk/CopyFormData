@@ -1,0 +1,93 @@
+{
+  "components": [
+    {
+      "text": "# View Important Data",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_0gaf6u0",
+        "columns": null
+      },
+      "id": "Field_1gucabk"
+    },
+    {
+      "label": "Legal Service Category",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1cj0k1y",
+        "columns": null
+      },
+      "id": "Field_0k577u2",
+      "key": "legalservicecategory",
+      "readonly": true
+    },
+    {
+      "label": "Requestor Name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0madkms",
+        "columns": null
+      },
+      "id": "Field_0a7i8sh",
+      "key": "requestorname",
+      "readonly": true
+    },
+    {
+      "label": "Approver Name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0p2ucu3",
+        "columns": null
+      },
+      "id": "Field_15gg0ix",
+      "key": "approvername",
+      "readonly": true
+    },
+    {
+      "values": [
+        {
+          "label": "Value",
+          "value": "value"
+        }
+      ],
+      "label": "SignatureData",
+      "type": "select",
+      "layout": {
+        "row": "Row_01nvl1o",
+        "columns": null
+      },
+      "id": "Field_0u1iip9",
+      "key": "signaturedata",
+      "readonly": true
+    },
+    {
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes"
+        },
+        {
+          "label": "No",
+          "value": "no"
+        }
+      ],
+      "label": "Approve?",
+      "type": "select",
+      "layout": {
+        "row": "Row_16rxkp0",
+        "columns": null
+      },
+      "id": "Field_144hy7b",
+      "key": "approved"
+    }
+  ],
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.4.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.19.0"
+  },
+  "schemaVersion": 14,
+  "id": "ViewDataForm",
+  "type": "default"
+}
